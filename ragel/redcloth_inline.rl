@@ -131,7 +131,7 @@
     cite { PARSE_ATTR("text"); PASS(block, "text", "cite"); };
     ignore => ignore;
     snip { PASS(block, "text", "snip"); };
-    quote1 { PASS(block, "text", "quote1"); };
+    #quote1 { PASS(block, "text", "quote1"); };
     quote2 { PASS(block, "text", "quote2"); };
     multi_paragraph_quote { PASS(block, "text", "multi_paragraph_quote"); };
     
