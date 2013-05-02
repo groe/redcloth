@@ -3,5 +3,12 @@
 This repository was forked from jgarber/redcloth on 2013-05-02.
 
 These are the changes so far:
-* Do not handle single quotes ' as blocks. This caused some parsing problems (SRC#298)
+* Do not handle single quotes <code>'</code> as blocks. This caused some parsing problems (SRC#298)
 
+= Use
+
+1. Add <code>gem "RedCloth", :git => "https://github.com/groe/redcloth"</code> to the Gemfile.
+
+2. Compile it: <code>cd `bundle show RedCloth` && rake install</code>
+
+You'll need the latest "Ragel":http://www.cs.queensu.ca/~thurston/ragel/.
