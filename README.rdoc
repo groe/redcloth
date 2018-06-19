@@ -12,3 +12,4 @@ These are the changes so far:
 2. Compile it: <code>cd `bundle show RedCloth` && rake compile && rake install</code>
 
 You'll need the latest "Ragel":http://www.cs.queensu.ca/~thurston/ragel/.
+
